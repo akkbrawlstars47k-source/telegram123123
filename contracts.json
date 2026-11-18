@@ -1,0 +1,255 @@
+{
+  "group_menu_threshold": 6,
+  "templates": [
+    {
+      "id": "demo",
+      "group": "РАО",
+      "title": "Демонстрационный договор",
+      "file": "templates/demo.docx",
+      "fields": [
+        {
+          "key": "inn",
+          "label": "ИНН",
+          "type": "inn",
+          "example": "1234567890"
+        },
+        {
+          "key": "contract_number",
+          "label": "Номер договора",
+          "type": "text",
+          "example": "15/26"
+        },
+        {
+          "key": "contract_date",
+          "label": "Дата договора",
+          "type": "date",
+          "example": "18.11.2026"
+        },
+        {
+          "key": "organization",
+          "label": "Название организации",
+          "type": "text",
+          "example": "ООО «Пример»"
+        }
+      ]
+    },
+    {
+      "id": "vois-radio",
+      "group": "ВОИС",
+      "title": "ВОИС — договор для радиовещания",
+      "file": "templates/vois-radio.docx",
+      "fields": [
+        {
+          "key": "contract_number",
+          "label": "Номер договора",
+          "type": "text",
+          "example": "СП/15/26"
+        },
+        {
+          "key": "contract_date",
+          "label": "Дата договора",
+          "type": "date",
+          "example": "18.11.2026"
+        },
+        {
+          "key": "contract_city",
+          "label": "Город заключения",
+          "type": "text",
+          "example": "Москва"
+        },
+        {
+          "key": "organization",
+          "label": "Полное наименование пользователя",
+          "type": "text",
+          "example": "ООО «Пример Радио»"
+        },
+        {
+          "key": "ogrn",
+          "label": "ОГРН пользователя",
+          "type": "ogrn",
+          "example": "1027700000008"
+        },
+        {
+          "key": "inn",
+          "label": "ИНН",
+          "type": "inn",
+          "example": "1234567890"
+        },
+        {
+          "key": "kpp",
+          "label": "КПП пользователя",
+          "type": "kpp",
+          "example": "770101001"
+        },
+        {
+          "key": "user_referred",
+          "label": "Согласование слова «именуемый»",
+          "type": "text",
+          "example": "именуемое"
+        },
+        {
+          "key": "user_representative",
+          "label": "Представитель пользователя (после «в лице»)",
+          "type": "text",
+          "example": "генерального директора Иванова Ивана Ивановича"
+        },
+        {
+          "key": "user_acting",
+          "label": "Согласование «действующего» (пользователь)",
+          "type": "text",
+          "example": "действующего"
+        },
+        {
+          "key": "user_authority",
+          "label": "Основание полномочий пользователя (после «на основании»)",
+          "type": "text",
+          "example": "Устава"
+        },
+        {
+          "key": "user_signature_name",
+          "label": "Фамилия и инициалы подписанта пользователя",
+          "type": "text",
+          "example": "Иванов И. И."
+        },
+        {
+          "key": "user_legal_address",
+          "label": "Адрес местонахождения пользователя",
+          "type": "text",
+          "example": "123000, г. Москва, ул. Примерная, д. 1"
+        },
+        {
+          "key": "user_postal_address",
+          "label": "Почтовый адрес пользователя",
+          "type": "text",
+          "example": "123000, г. Москва, ул. Примерная, д. 1"
+        },
+        {
+          "key": "user_phone",
+          "label": "Телефон или факс пользователя",
+          "type": "text",
+          "example": "+7 495 000-00-01"
+        },
+        {
+          "key": "user_email",
+          "label": "Электронная почта пользователя",
+          "type": "text",
+          "example": "radio@example.com"
+        },
+        {
+          "key": "user_reporting_email",
+          "label": "Почта пользователя для отправки отчётности",
+          "type": "text",
+          "example": "report@example.com"
+        },
+        {
+          "key": "user_account",
+          "label": "Расчётный счёт пользователя",
+          "type": "account",
+          "example": "40702810000000000001"
+        },
+        {
+          "key": "user_bank",
+          "label": "Банк пользователя",
+          "type": "text",
+          "example": "АО «Пример Банк»"
+        },
+        {
+          "key": "user_correspondent_account",
+          "label": "Корреспондентский счёт банка пользователя",
+          "type": "account",
+          "example": "30101810000000000001"
+        },
+        {
+          "key": "user_bic",
+          "label": "БИК банка пользователя",
+          "type": "bic",
+          "example": "044525001"
+        },
+        {
+          "key": "vois_representative",
+          "label": "Представитель ВОИС (после «в лице»)",
+          "type": "text",
+          "example": "исполнительного директора Петровой Анны Андреевны"
+        },
+        {
+          "key": "vois_acting",
+          "label": "Согласование «действующего» (ВОИС)",
+          "type": "text",
+          "example": "действующей"
+        },
+        {
+          "key": "vois_authority",
+          "label": "Основание полномочий ВОИС (после «на основании»)",
+          "type": "text",
+          "example": "доверенности № 1 от 01.11.2026"
+        },
+        {
+          "key": "vois_signature_name",
+          "label": "Фамилия и инициалы подписанта ВОИС",
+          "type": "text",
+          "example": "Петрова А. А."
+        },
+        {
+          "key": "vois_legal_address",
+          "label": "Адрес местонахождения ВОИС",
+          "type": "text",
+          "example": "123000, г. Москва, ул. Примерная, д. 2"
+        },
+        {
+          "key": "vois_postal_address",
+          "label": "Почтовый адрес ВОИС",
+          "type": "text",
+          "example": "123000, г. Москва, ул. Примерная, д. 2"
+        },
+        {
+          "key": "vois_phone",
+          "label": "Телефон или факс ВОИС",
+          "type": "text",
+          "example": "+7 495 000-00-02"
+        },
+        {
+          "key": "vois_reporting_email",
+          "label": "Почта ВОИС для получения отчётности",
+          "type": "text",
+          "example": "vois-report@example.com"
+        },
+        {
+          "key": "vois_account",
+          "label": "Расчётный счёт ВОИС",
+          "type": "account",
+          "example": "40703810000000000002"
+        },
+        {
+          "key": "vois_bank",
+          "label": "Банк ВОИС",
+          "type": "text",
+          "example": "АО «Пример Банк»"
+        },
+        {
+          "key": "vois_correspondent_account",
+          "label": "Корреспондентский счёт банка ВОИС",
+          "type": "account",
+          "example": "30101810000000000002"
+        },
+        {
+          "key": "vois_bic",
+          "label": "БИК банка ВОИС",
+          "type": "bic",
+          "example": "044525002"
+        },
+        {
+          "key": "term_start",
+          "label": "Начало срока договора",
+          "type": "date",
+          "example": "01.12.2026"
+        },
+        {
+          "key": "term_end",
+          "label": "Окончание срока договора",
+          "type": "date",
+          "example": "31.12.2026"
+        }
+      ]
+    }
+  ]
+}
